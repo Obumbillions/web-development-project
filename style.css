@@ -1,0 +1,195 @@
+body{
+    font-size: 16px;
+    font-family: CNN,Arial, Helvetica, sans-serif;
+}
+.advert-section{
+background-color: #000000;
+height:20vh;
+display: flex;
+padding-top: 25px;
+padding-bottom: 25px;
+justify-content: center;
+}
+
+.dropdown{
+margin-left: 60vh;
+
+}
+.new{
+    border-left: 4px solid gray;
+    height: 18px;
+    padding-left: 8px;
+
+}
+
+.newsline,p{
+    display: flex;
+     font-size: 15px;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.advert-section2{
+    margin-left: 15vh;
+    margin-bottom: 10vh;
+   
+   
+}
+.section-title{
+    display: flex;
+    align-items: baseline;
+}
+.section-title>div{
+     flex:1;
+    margin-left: 10px;
+}
+.section-title > div > div:first-child{
+    border-top:solid 4px #ddd;
+    margin-bottom: 1px;
+}
+.section-title > div > div:last-child{
+    border-top:solid 4px #ddd;
+}
+
+/*footer styling*/
+.section-title1{
+    display: flex;
+    align-items: baseline;
+}
+.section-title1>div{
+     flex:1;
+    margin-left: 10px;
+}
+.section-title1 > div > div:first-child{
+    border-top:solid 4px red;
+    margin-bottom: 1px;
+}
+.section-title1> div > div:last-child{
+    border-top:solid 4px red;
+}
+
+.nav-link:hover{
+color: red;
+}
+.zenith-logo2{
+    margin-left: 120px;
+}
+
+
+
+
+@media only screen and (max-width:900px) {
+
+ body{
+       font-family: CNN,Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.advert-section{
+background-color: #000000;
+height:20vh;
+display: flex;
+padding-top: 25px;
+padding-bottom: 25px;
+justify-content: center;
+}
+
+.dropdown{
+margin-left: 60vh;
+
+}
+.new{
+    border-left: 4px solid gray;
+    height: 18px;
+    padding-left: 8px;
+
+}
+
+.newsline,p{
+    display: none;
+     
+}
+.greta{
+    width: 113vh;
+   
+}
+.apple{
+ width: 113vh;
+}
+.skeleton{
+   width: 113vh; 
+}
+.czech{
+     width: 113vh; 
+}
+.texas{
+     width: 113vh; 
+}
+.hong-kong{
+     width: 113vh; 
+}
+.mo-salah{
+     width: 113vh; 
+}
+.aviation{
+     width: 113vh; 
+}
+.apple-tim{
+     width: 113vh; 
+}
+.second-row{
+    display: none;
+}
+
+
+.grammy{
+    display: none;
+}
+.advert-section{
+    display: none;
+}
+.advert-section2{
+    display: none;
+}
+.zenith-logo2{
+    display: none;
+}
+
+.section-title{
+    display: flex;
+    align-items: baseline;
+}
+.section-title>div{
+     flex:1;
+    margin-left: 10px;
+}
+.section-title > div > div:first-child{
+    border-top:solid 4px #ddd;
+    margin-bottom: 1px;
+}
+.section-title > div > div:last-child{
+    border-top:solid 4px #ddd;
+}
+
+/*footer styling*/
+.section-title1{
+    display: flex;
+    align-items: baseline;
+}
+.section-title1>div{
+     flex:1;
+    margin-left: 10px;
+}
+.section-title1 > div > div:first-child{
+    border-top:solid 4px red;
+    margin-bottom: 1px;
+}
+.section-title1> div > div:last-child{
+    border-top:solid 4px red;
+}
+
+.nav-link:hover{
+color: red;
+}
+.zenith-logo2{
+    margin-left: 120px;
+}   
+}
