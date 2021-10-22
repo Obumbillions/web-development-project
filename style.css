@@ -1,6 +1,7 @@
 body{
     font-size: 16px;
     font-family: CNN,Arial, Helvetica, sans-serif;
+   color: black; 
 }
 .advert-section{
 background-color: #000000;
@@ -10,6 +11,12 @@ padding-top: 25px;
 padding-bottom: 25px;
 justify-content: center;
 }
+
+
+.footer-section{
+    color: white;
+}
+
 
 .dropdown{
 margin-left: 60vh;
@@ -31,9 +38,8 @@ margin-left: 60vh;
 .advert-section2{
     margin-left: 15vh;
     margin-bottom: 10vh;
-   
-   
 }
+
 .section-title{
     display: flex;
     align-items: baseline;
@@ -67,21 +73,56 @@ margin-left: 60vh;
     border-top:solid 4px red;
 }
 
+.footer-second-row>.nav-link{
+    color: white;
+}
+.footer-first-row>.nav-link{
+    color: white;
+}
+.Paid-content-section>.nav-link{
+    color: black;
+}
+.Photos-you-see-section>.nav-link{
+    color: black;
+}
+.Watch-it-section>.nav-link{
+    color: black;
+}
+.Featured-section>.nav-link{
+    color: black;
+}
+.Main-section>.nav-link{
+    color: black;
+}
+.grammy>.nav-link{
+    color: black;
+}
 .nav-link:hover{
 color: red;
 }
 .zenith-logo2{
     margin-left: 120px;
 }
+.Spotlight{
+    font-weight:bolder;
+    font-size:20px;
+    border-width: 2000px;
+}
+.News and buzz{
+    font-weight: bolder;
+    background-color:#f2f2f2;
+     font-size:20vh;
+}
 
 
 
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:991.98px) {
 
  body{
        font-family: CNN,Arial, Helvetica, sans-serif;
-    font-size: 16px;
+       font-size: 16px;
+       color: black;
 }
 .advert-section{
 background-color: #000000;
